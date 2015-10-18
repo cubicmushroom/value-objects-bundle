@@ -1,0 +1,28 @@
+{
+  "name": "cm-value-objects-bundle",
+  "version": "0.0.0",
+  "description": "Symfony bundle to integrate value objects from the nicolopignatelli/valueobjects package",
+  "main": "glpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cubicmushroom/value-objects-bundle.git"
+  },
+  "keywords": [
+    "symfony",
+    "value",
+    "objects"
+  ],
+  "author": "Toby Griffiths <toby@cubicmushroom.co.uk> (http://tobyg.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cubicmushroom/value-objects-bundle/issues"
+  },
+  "homepage": "https://github.com/cubicmushroom/value-objects-bundle",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cm-phpspec-tasks": "^1.1.0"
+  }
+}

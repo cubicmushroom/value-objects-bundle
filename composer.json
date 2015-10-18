@@ -1,0 +1,31 @@
+{
+  "name"             : "cubicmushroom/value-objects-bundle",
+  "description"      : "Symfony bundle to integrate value objects from the nicolopignatelli/valueobjects package",
+  "version"          : "0.0.0",
+  "type"             : "library",
+  "license"          : "ISC",
+  "authors"          : [
+    {
+      "name" : "Toby Griffiths",
+      "email": "toby@cubicmushroom.co.uk"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require"          : {},
+  "require-dev"      : {
+    "symfony/symfony"              : "^2.7",
+    "phpspec/phpspec"              : "^2.3",
+    "nicolopignatelli/valueobjects": "^3.0"
+  },
+  "scripts"          : {
+    "post-install-cmd": [
+      "gulp test"
+    ],
+    "post-update-cmd" : [
+      "gulp test"
+    ],
+    "pre-archive-cmd" : [
+      "gulp test"
+    ]
+  }
+}
