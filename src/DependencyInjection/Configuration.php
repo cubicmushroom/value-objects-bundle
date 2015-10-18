@@ -1,6 +1,6 @@
 <?php
 
-namespace CubicMushroom\ValueObjectsBundle\DependencyInjection;
+namespace CubicMushroom\Symfony\ValueObjectsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

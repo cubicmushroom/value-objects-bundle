@@ -1,6 +1,6 @@
 <?php
 
-namespace CubicMushroom\ValueObjectsBundle\Tests\Controller;
+namespace CubicMushroom\Symfony\ValueObjectsBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

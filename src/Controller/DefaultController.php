@@ -1,6 +1,6 @@
 <?php
 
-namespace CubicMushroom\ValueObjectsBundle\Controller;
+namespace CubicMushroom\Symfony\ValueObjectsBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 

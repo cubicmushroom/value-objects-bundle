@@ -17,6 +17,11 @@
     "phpspec/phpspec"              : "^2.3",
     "nicolopignatelli/valueobjects": "^3.0"
   },
+  "autoload": {
+    "psr-4": {
+      "CubicMushroom\\Symfony\\ValueObjectsBundle\\": "src/"
+    }
+  },
   "scripts"          : {
     "post-install-cmd": [
       "gulp test"

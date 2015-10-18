@@ -1,6 +1,6 @@
 <?php
 
-namespace CubicMushroom\ValueObjectsBundle;
+namespace CubicMushroom\Symfony\ValueObjectsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

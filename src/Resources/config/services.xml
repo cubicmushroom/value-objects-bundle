@@ -6,7 +6,7 @@
 
     <!--
     <services>
-        <service id="cm_value_objects.example" class="CubicMushroom\ValueObjectsBundle\Example">
+        <service id="cm_value_objects.example" class="CubicMushroom\Symfony\ValueObjectsBundle\Example">
             <argument type="service" id="service_id" />
             <argument>plain_value</argument>
             <argument>%parameter_name%</argument>
