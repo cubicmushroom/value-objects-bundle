@@ -23,10 +23,10 @@ module.exports = function (importance) {
         .pipe(gulp.dest('./'))
 
         // commit the changed version number
-        // .pipe(git.commit('Releasing new ' + importance + ' version'))
+        .pipe(git.commit('Releasing new ' + importance + ' version'))
 
         // read only one file to get the version number
-        // .pipe(filter('composer.json'))
+        .pipe(filter('composer.json'))
 
         // **tag it in the repository**
         .pipe(tag_version());
