@@ -1,6 +1,6 @@
 {
   "name": "cm-value-objects-bundle",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Symfony bundle to integrate value objects from the nicolopignatelli/valueobjects package",
   "main": "glpfile.js",
   "scripts": {
