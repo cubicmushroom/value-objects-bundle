@@ -2,5 +2,5 @@
  * 
  */
 module.exports = function(){
-    require('increment')('minor');
+    require('./increment')('minor');
 };
