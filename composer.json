@@ -1,8 +1,8 @@
 {
   "name"             : "cubicmushroom/value-objects-bundle",
   "description"      : "Symfony bundle to integrate value objects from the nicolopignatelli/valueobjects package",
-  "type"             : "library",
   "version"          : "2.6.0",
+  "type"             : "symfony-bundle",
   "license"          : "ISC",
   "authors"          : [
     {
