@@ -12,10 +12,10 @@
   ],
   "minimum-stability": "stable",
   "require"          : {
+    "symfony/symfony"              : "^2.7",
     "nicolopignatelli/valueobjects": "^3.0"
   },
   "require-dev"      : {
-    "symfony/symfony"              : "^2.7",
     "phpspec/phpspec"              : "^2.3",
     "phpunit/phpunit": "^4.8"
   },
