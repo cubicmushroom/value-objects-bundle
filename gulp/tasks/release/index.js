@@ -9,10 +9,11 @@
  * gulp release -
  */
 
-var gulp = require('../..')([
+var gulp = require('../../loader')([
     'release/major',
     'release/minor',
     'release/patch'
 ]);
 
+// Return null as this module does not contain a task
 module.exports = null;
