@@ -1,38 +1,38 @@
 {
-    "name":              "cubicmushroom/value-objects-bundle",
-    "description":       "Symfony bundle to integrate value objects from the nicolopignatelli/valueobjects package",
-    "version":           "2.7.0",
-    "type":              "symfony-bundle",
-    "license":           "ISC",
-    "authors":           [
-        {
-            "name":  "Toby Griffiths",
-            "email": "toby@cubicmushroom.co.uk"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require":           {
-        "symfony/symfony":               "^2.7",
-        "nicolopignatelli/valueobjects": "^3.0"
-    },
-    "require-dev":       {
-        "phpspec/phpspec": "^2.3",
-        "phpunit/phpunit": "^4.8"
-    },
-    "autoload":          {
-        "psr-4": {
-            "CubicMushroom\\Symfony\\ValueObjectsBundle\\": "src/"
-        }
-    },
-    "scripts":           {
-        "post-install-cmd": [
-            "gulp test"
-        ],
-        "post-update-cmd":  [
-            "gulp test"
-        ],
-        "pre-archive-cmd":  [
-            "gulp test"
-        ]
+  "name"             : "cubicmushroom/value-objects-bundle",
+  "description"      : "Symfony bundle to integrate value objects from the nicolopignatelli/valueobjects package",
+  "version"          : "2.7.0",
+  "type"             : "symfony-bundle",
+  "license"          : "ISC",
+  "authors"          : [
+    {
+      "name" : "Toby Griffiths",
+      "email": "toby@cubicmushroom.co.uk"
     }
+  ],
+  "minimum-stability": "stable",
+  "require"          : {
+    "symfony/symfony"           : "^2.7",
+    "cubicmushroom/valueobjects": "^3.0"
+  },
+  "require-dev"      : {
+    "phpspec/phpspec": "^2.3",
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "CubicMushroom\\Symfony\\ValueObjectsBundle\\": "src/"
+    }
+  },
+  "scripts"          : {
+    "post-install-cmd": [
+      "gulp test"
+    ],
+    "post-update-cmd":  [
+      "gulp test"
+    ],
+    "pre-archive-cmd":  [
+      "gulp test"
+    ]
+  }
 }
