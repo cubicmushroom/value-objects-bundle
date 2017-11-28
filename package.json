@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/cubicmushroom/value-objects-bundle",
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-bump": "^2.1.0",
     "gulp-cm-phpspec-tasks": "^1.1.0",
     "gulp-filter": "^4.0.0",
