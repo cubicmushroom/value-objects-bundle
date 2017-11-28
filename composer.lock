@@ -4,8 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de1e62e177380aa3309b9c7a475e3074",
+    "content-hash": "328b4d664e68483ed2a3f94cc6562caa",
     "packages": [
+        {
+            "name": "cubicmushroom/valueobjects",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cubicmushroom/valueobjects.git",
+                "reference": "9a798f0f1853511d1813ddfa87ed85349e396d9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cubicmushroom/valueobjects/zipball/9a798f0f1853511d1813ddfa87ed85349e396d9d",
+                "reference": "9a798f0f1853511d1813ddfa87ed85349e396d9d",
+                "shasum": ""
+            },
+            "require": {
+                "league/geotools": "~0.3.1",
+                "marc-mabe/php-enum": "~1.0",
+                "mathiasverraes/money": "~1.2",
+                "php": ">=5.3.3",
+                "ramsey/uuid": "~2.5",
+                "zendframework/zend-validator": "~2.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ValueObjects\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/nicolopignatelli/valueobjects/graphs/contributors"
+                },
+                {
+                    "name": "Nicolò Pignatelli",
+                    "email": "pignatelli.nicolo@gmail.com"
+                }
+            ],
+            "description": "A PHP library/collection of classes aimed to help developers using and undestanding immutable objects.",
+            "time": "2017-11-27T18:07:37+00:00"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.7",
@@ -72,7 +125,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-08-31 12:32:49"
+            "time": "2015-08-31T12:32:49+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -142,7 +195,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-08-31 12:36:41"
+            "time": "2015-08-31T12:36:41+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -208,7 +261,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2015-04-14T22:21:58+00:00"
         },
         {
             "name": "doctrine/common",
@@ -281,7 +334,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-08-31 13:00:22"
+            "time": "2015-08-31T13:00:22+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -348,7 +401,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2014-12-20 21:24:13"
+            "time": "2014-12-20T21:24:13+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -402,7 +455,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "league/geotools",
@@ -474,7 +527,7 @@
                 "geometry",
                 "geotools"
             ],
-            "time": "2014-05-15 23:59:22"
+            "time": "2014-05-15T23:59:22+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
@@ -533,19 +586,19 @@
                 "type-hint",
                 "typehint"
             ],
-            "time": "2015-10-04 17:35:32"
+            "time": "2015-10-04T17:35:32+00:00"
         },
         {
             "name": "mathiasverraes/money",
             "version": "1.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mathiasverraes/money.git",
+                "url": "https://github.com/moneyphp/money.git",
                 "reference": "b9e258119041fed20e4704f72e3ebb94ed10bea2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mathiasverraes/money/zipball/b9e258119041fed20e4704f72e3ebb94ed10bea2",
+                "url": "https://api.github.com/repos/moneyphp/money/zipball/b9e258119041fed20e4704f72e3ebb94ed10bea2",
                 "reference": "b9e258119041fed20e4704f72e3ebb94ed10bea2",
                 "shasum": ""
             },
@@ -588,60 +641,8 @@
                 "Value Object",
                 "money"
             ],
-            "time": "2014-10-07 12:54:10"
-        },
-        {
-            "name": "nicolopignatelli/valueobjects",
-            "version": "v3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nicolopignatelli/valueobjects.git",
-                "reference": "de7ab566be73e9e2c73bbbf05177646b11fc2b05"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nicolopignatelli/valueobjects/zipball/de7ab566be73e9e2c73bbbf05177646b11fc2b05",
-                "reference": "de7ab566be73e9e2c73bbbf05177646b11fc2b05",
-                "shasum": ""
-            },
-            "require": {
-                "league/geotools": "~0.3.1",
-                "marc-mabe/php-enum": "~1.0",
-                "mathiasverraes/money": "~1.2",
-                "php": ">=5.3.3",
-                "ramsey/uuid": "~2.5",
-                "zendframework/zend-validator": "~2.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ValueObjects\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/nicolopignatelli/valueobjects/graphs/contributors"
-                },
-                {
-                    "name": "Nicolò Pignatelli",
-                    "email": "pignatelli.nicolo@gmail.com"
-                }
-            ],
-            "description": "A PHP library/collection of classes aimed to help developers using and undestanding immutable objects.",
-            "time": "2015-05-15 13:19:42"
+            "abandoned": "moneyphp/money",
+            "time": "2014-10-07T12:54:10+00:00"
         },
         {
             "name": "psr/log",
@@ -679,7 +680,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -745,7 +746,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2015-08-31 13:34:50"
+            "time": "2015-08-31T13:34:50+00:00"
         },
         {
             "name": "react/async",
@@ -786,7 +787,7 @@
             "keywords": [
                 "async"
             ],
-            "time": "2013-02-06 23:27:19"
+            "time": "2013-02-06T23:27:19+00:00"
         },
         {
             "name": "symfony/symfony",
@@ -908,7 +909,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-09-25 11:16:52"
+            "time": "2015-09-25T11:16:52+00:00"
         },
         {
             "name": "twig/twig",
@@ -969,19 +970,19 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-10-13 07:07:02"
+            "time": "2015-10-13T07:07:02+00:00"
         },
         {
             "name": "willdurand/geocoder",
             "version": "2.8.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/geocoder-php/Geocoder.git",
+                "url": "https://github.com/geocoder-php/php-common.git",
                 "reference": "8a66b8a227328f28ba12f98937a33c6fa0bb90f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geocoder-php/Geocoder/zipball/8a66b8a227328f28ba12f98937a33c6fa0bb90f8",
+                "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/8a66b8a227328f28ba12f98937a33c6fa0bb90f8",
                 "reference": "8a66b8a227328f28ba12f98937a33c6fa0bb90f8",
                 "shasum": ""
             },
@@ -1033,7 +1034,7 @@
                 "geocoding",
                 "geoip"
             ],
-            "time": "2015-01-07 13:23:35"
+            "time": "2015-01-07T13:23:35+00:00"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -1089,7 +1090,7 @@
                 "hydrator",
                 "zf2"
             ],
-            "time": "2015-09-17 14:06:43"
+            "time": "2015-09-17T14:06:43+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -1147,7 +1148,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-10-15 15:57:32"
+            "time": "2015-10-15T15:57:32+00:00"
         },
         {
             "name": "zendframework/zend-validator",
@@ -1213,7 +1214,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2015-09-03 19:06:11"
+            "time": "2015-09-03T19:06:11+00:00"
         }
     ],
     "packages-dev": [
@@ -1269,7 +1270,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14 21:17:01"
+            "time": "2015-06-14T21:17:01+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1318,7 +1319,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2015-02-03 12:10:50"
+            "time": "2015-02-03T12:10:50+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -1352,7 +1353,7 @@
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
-            "time": "2013-11-01 13:02:21"
+            "time": "2013-11-01T13:02:21+00:00"
         },
         {
             "name": "phpspec/phpspec",
@@ -1429,7 +1430,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2015-09-07 07:07:37"
+            "time": "2015-09-07T07:07:37+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -1489,7 +1490,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2015-08-13 10:07:40"
+            "time": "2015-08-13T10:07:40+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1551,7 +1552,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-06 15:47:00"
+            "time": "2015-10-06T15:47:00+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1598,7 +1599,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2015-06-21 13:08:43"
+            "time": "2015-06-21T13:08:43+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1639,7 +1640,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -1680,7 +1681,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2015-06-21 08:01:12"
+            "time": "2015-06-21T08:01:12+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -1729,7 +1730,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-09-15 10:49:45"
+            "time": "2015-09-15T10:49:45+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -1801,7 +1802,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-17 15:03:30"
+            "time": "2015-10-17T15:03:30+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1857,7 +1858,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-02 06:51:40"
+            "time": "2015-10-02T06:51:40+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -1921,7 +1922,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2015-07-26 15:48:44"
+            "time": "2015-07-26T15:48:44+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -1973,7 +1974,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-02-22 15:13:53"
+            "time": "2015-02-22T15:13:53+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -2023,7 +2024,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2015-08-03 06:14:51"
+            "time": "2015-08-03T06:14:51+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -2089,7 +2090,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2015-06-21 07:55:53"
+            "time": "2015-06-21T07:55:53+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -2140,7 +2141,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2015-10-12 03:26:01"
+            "time": "2015-10-12T03:26:01+00:00"
         },
         {
             "name": "sebastian/recursion-context",
@@ -2193,7 +2194,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2015-06-21 08:04:50"
+            "time": "2015-06-21T08:04:50+00:00"
         },
         {
             "name": "sebastian/version",
@@ -2228,7 +2229,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2015-06-21 13:59:46"
+            "time": "2015-06-21T13:59:46+00:00"
         }
     ],
     "aliases": [],
